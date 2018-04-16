@@ -1,0 +1,37 @@
+% CREATED BY DAVID FRISK, 2016
+% Edited by MATILDA IDOFFSSON 2017
+% COVER PAGE
+\begin{titlepage}
+\newgeometry{top=3cm, bottom=3cm,
+			left=2.25 cm, right=2.25cm}	% Temporarily change margins		
+			
+% Cover page background 
+\AddToShipoutPicture*{\backgroundpic{-4}{56.7}{figure/frontpage_eng.pdf}}
+\addtolength{\voffset}{2cm}
+
+% Cover text
+\renewcommand{\familydefault}{\sfdefault} \normalfont
+
+\textbf{{\Huge Titel}} \\[0.5cm]
+{\Large Underrubrik}
+\setlength{\parskip}{1cm}
+
+{\Large
+    Författare \\ [0.2cm]
+} \setlength{\parskip}{2.9cm}
+
+
+\textbf{\today}
+
+\mbox{}
+\vfill
+
+%Signaler och System \\
+\textsc{Chalmers Tekniska Högskola} \\
+Göteborg, Sverige \the\year
+
+\renewcommand{\familydefault}{\rmdefault} \normalfont % Reset standard font
+\end{titlepage}
+
+\newpage
+\tableofcontents

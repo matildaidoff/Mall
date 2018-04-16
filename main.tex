@@ -1,0 +1,40 @@
+% CREATED BY DAVID FRISK, 2016
+
+% IMPORT SETTINGS
+\documentclass[12pt,a4paper]{article}
+\input{include/settings/Settings}
+
+\begin{document} 
+
+% COVER PAGE, TITLE PAGE AND IMPRINT PAGE
+\pagenumbering{roman}			% Roman numbering (starting with i (one)) until first main chapter
+\input{include/Titlepage}
+
+% START OF MAIN DOCUMENT
+%\cleardoublepage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\setlength{\parskip}{6pt plus 1pt}
+
+
+% Huvudstoff
+
+%\input{include/inledning}
+%\input{include/metod}
+%\input{include/resultat.tex}
+%\input{include/diskussion.tex}
+%\input{include/slutsats.tex}
+
+
+%Referenser
+\newpage
+\bibliographystyle{unsrt}
+\bibliography{References}
+
+
+%Appendix
+\newpage
+\appendix
+
+
+\end{document}
